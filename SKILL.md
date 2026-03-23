@@ -1,7 +1,7 @@
 ---
 name: refine-context
 description: Audits and refines Claude Code context quality across all layers — CLAUDE.md files, rules, skills, memory, MCP servers, hooks, settings, and agents. Analyzes conversation history to find patterns and gaps. Use when the user wants to optimize their Claude Code setup, reduce context bloat, fix skill triggering issues, improve instruction adherence, audit progressive disclosure, or when they mention "refine", "context", "optimize setup", or complain that Claude ignores instructions.
-argument-hint: [audit|conversations] [directory]
+argument-hint: "[audit|conversations] [directory]"
 effort: max
 context: fork
 allowed-tools: [Read, Glob, Grep, Bash, Agent]
